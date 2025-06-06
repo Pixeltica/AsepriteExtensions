@@ -39,6 +39,3 @@ You can watch a quick demo of the extension in action on YouTube
 
 [![media_banner_v_4](https://github.com/user-attachments/assets/da15b316-2f4e-416a-aebd-87330527e67e "Aseprite Extension demo thumbnail link image")](https://youtu.be/SQJzuqcKaF4?si=KVwtO6VCr8Rl2McC)
 
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xwuA9mSwZkE?si=AXIWAN68lSVaY_2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
