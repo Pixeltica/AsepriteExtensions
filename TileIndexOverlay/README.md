@@ -10,7 +10,8 @@ Use Cases:
 
 ## Tile Index Overlay Extension | Warnings
 
-> Important : the Sprite / Canvas width and height have to be cleanly divisble by your tile dimensions!
+> [!WARNING]
+> Sprite / Canvas width and height MUST be divisble by your tile dimensions!
 
 You need to make sure that your canvas/sprite size can be divided by your tile size, i.e. if your tile size is 16x16 your canvas/sprite dimensions have to be multiples of 16 (160x256, 512x1024 and so on) - the extension will check for this and alert if your canvas size does not match your provided tile size.
 
@@ -32,5 +33,12 @@ When you activate the extension you will see a popup with below options:
 * Contrast Color : color picker (default : semi-transparent black | this is the color of the background contrast rectangle)
 
 Click OK to generate the layer(s)
+
+## Demo
+You can watch a quick demo of the extension in action on YouTube
+
+[![media_banner_v_4](https://github.com/user-attachments/assets/da15b316-2f4e-416a-aebd-87330527e67e "Aseprite Extension demo thumbnail link image")](https://youtu.be/SQJzuqcKaF4?si=KVwtO6VCr8Rl2McC)
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xwuA9mSwZkE?si=AXIWAN68lSVaY_2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
