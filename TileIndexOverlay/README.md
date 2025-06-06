@@ -1,4 +1,6 @@
 
+![tileindexoverlay_banner_v3](https://github.com/user-attachments/assets/050b5841-d906-4a4c-8c67-55c42cfdb43b)
+ <br/>
 ## Tile Index Overlay Extension | Summary
 
 The Tile Index Overlay extension creates a new layer(s) on your currently open sprite. Based on user defied tile size (width and height) it will place a 4 digit index number in the upper left corner of each tile. This index number "map" is meant to assist in quickly finding the position of sprites/tiles without having to check their coordinates individually.
@@ -7,13 +9,20 @@ Use Cases:
 * locating existing textures in large spritesheets/tilesheets (SDV modding community will be familiar with the challange of springobjects!)
 * noting tile index numbers needed for object placement code
 * debugging objects displaying incorrect textures - loading spritesheets/tilesheets with the index map visible will quickly help identify which tile numbers may not be displaying intended textures
+   <br/> <br/>
+  
+![index-example](https://github.com/user-attachments/assets/50404bbe-de2a-48a2-9028-d92626196662)
 
-## Tile Index Overlay Extension | Warnings
+
+<br/> <br/>
+## Tile Index Overlay Extension | Important Notes
 
 > [!WARNING]
 > Sprite / Canvas width and height MUST be divisble by your tile dimensions!
 
 You need to make sure that your canvas/sprite size can be divided by your tile size, i.e. if your tile size is 16x16 your canvas/sprite dimensions have to be multiples of 16 (160x256, 512x1024 and so on) - the extension will check for this and alert if your canvas size does not match your provided tile size.
+
+The extension will also not activate (the New Tile Index Overlay Layer button will be greyed out) unless there is at least one currently active sprite.
 
 ## Tile Index Overlay Extension | How To
 
@@ -32,7 +41,9 @@ When you activate the extension you will see a popup with below options:
 * Include a Contrast Background layer : tickbox (if ticked: will create an additional layer below index with coloured background to make index numbers more readable)
 * Contrast Color : color picker (default : semi-transparent black | this is the color of the background contrast rectangle)
 
-Click OK to generate the layer(s)
+Click OK to generate the layer(s) <br/>
+![tileindexoverlay_options_v4](https://github.com/user-attachments/assets/5d72e5b3-14f7-409e-bfc9-a8acb614344e)
+
 
 ## Demo
 You can watch a quick demo of the extension in action on YouTube
