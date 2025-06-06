@@ -10,9 +10,9 @@ Aseprite extensions are usually small lua script based additions to the base pro
 Tile Index Overlay creates a new layer with the tile index number in the upper left corner, with an option to include contrasting background for better readability. The extension provides a pre-defined keyboard shortcut (Space + i) and integrates into the existing [New Layer...] menu. <br/>
 Tile size, index color, contrast background and contrast background color are fully customizable.<br/>
 
-[Click here](https://github.com/Pixeltica/AsepriteExtensions/TileIndexOverlay) to learn more, read the How-To guide, and watch the extension demo.<br/>
+[Click here](https://github.com/Pixeltica/AsepriteExtensions/tree/main/TileIndexOverlay#tile-index-overlay-extension--summary) to learn more, read the How-To guide, and watch the extension demo.<br/>
 
-Download the current exention version on the [releases page](https://github.com/Pixeltica/AsepriteExtensions/releases/tag/1.0.0 "release v1.0.0 link")
+Download the current exention version on the **[Releases Page](https://github.com/Pixeltica/AsepriteExtensions/releases/tag/1.0.0 "release v1.0.0 link")**
 
 <br/><br/>
 
