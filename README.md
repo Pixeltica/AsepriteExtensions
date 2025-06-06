@@ -5,7 +5,9 @@ Aseprite is a Pixel Art Tool and Animated Sprite Editor - if you are not familia
 Aseprite extensions are usually small lua script based additions to the base program, meant to bring additional functionality not available out of the box. You can read more about extensions on official [Aseprite Docs](https://www.aseprite.org/docs/extensions/)
 <br/><br/>
 
-## Tile Index Overlay | Aseprite Extension 
+***
+![minimedia_banner_v2](https://github.com/user-attachments/assets/590b9b6b-60ad-4b62-abb3-f074a9aee5dc "Pixeltica's Tile Index Overlay Aseprite Extension")
+***
 
 Tile Index Overlay creates a new layer with the tile index number in the upper left corner, with an option to include contrasting background for better readability. The extension provides a pre-defined keyboard shortcut (Space + i) and integrates into the existing [New Layer...] menu. <br/>
 Tile size, index color, contrast background and contrast background color are fully customizable.<br/>
