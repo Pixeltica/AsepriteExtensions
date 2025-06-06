@@ -1,0 +1,29 @@
+{
+  "name": "tile-index-overlay",
+  "displayName": "Tile Index Overlay",
+  "description": "Creates a tile index overlay on a new layer by drawing minimal 3x6px digit images.",
+  "version": "1.0",
+  "author": { 
+	"name": "Pixeltica", 
+	"url": "https://github.com/Pixeltica/AsepriteExtensions" 
+	},
+  "publisher": "Pixeltica",
+  "license": "MIT",
+  "categories": [
+    "Scripts",
+	"Keys"
+  ],
+  "contributes": {
+    "scripts": [
+      {
+        "path": "./tile-index-overlay.lua" 
+      }
+    ],
+    "keys": [
+      {
+        "id": "tile-index-overlay",
+        "path": "./tile-index-overlay.aseprite-keys"
+      }
+    ]
+  }
+}
