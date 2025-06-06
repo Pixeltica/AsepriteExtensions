@@ -1,6 +1,8 @@
 
-![tileindexoverlay_banner_v3](https://github.com/user-attachments/assets/050b5841-d906-4a4c-8c67-55c42cfdb43b)
+![minimedia_banner_v2](https://github.com/user-attachments/assets/ed833be9-1260-4799-86e2-856174dc00c5)
+
  <br/>
+ 
 ## Tile Index Overlay Extension | Summary
 
 The Tile Index Overlay extension creates a new layer(s) on your currently open sprite. Based on user defied tile size (width and height) it will place a 4 digit index number in the upper left corner of each tile. This index number "map" is meant to assist in quickly finding the position of sprites/tiles without having to check their coordinates individually.
@@ -14,7 +16,8 @@ Use Cases:
 ![index-example](https://github.com/user-attachments/assets/50404bbe-de2a-48a2-9028-d92626196662)
 
 
-<br/> <br/>
+<br/>
+
 ## Tile Index Overlay Extension | Important Notes
 
 > [!WARNING]
@@ -24,6 +27,8 @@ You need to make sure that your canvas/sprite size can be divided by your tile s
 
 The extension will also not activate (the New Tile Index Overlay Layer button will be greyed out) unless there is at least one currently active sprite.
 
+<br/>
+
 ## Tile Index Overlay Extension | How To
 
 There are two ways to use the extension:
@@ -32,7 +37,9 @@ There are two ways to use the extension:
   
 * Via Keyboard Shortcut = Defualt: SPACE + i (you can change it to your preferred shortcut by going to Menu : Edit >> Keyboard Shortcut and search for "Tile Index")
 
-### Dialog Options
+<br/>
+
+## Available Options
 When you activate the extension you will see a popup with below options:
 
 * Tile Width (pixels) : positive number (default 16)
@@ -44,7 +51,7 @@ When you activate the extension you will see a popup with below options:
 Click OK to generate the layer(s) <br/>
 ![tileindexoverlay_options_v4](https://github.com/user-attachments/assets/5d72e5b3-14f7-409e-bfc9-a8acb614344e)
 
-
+<br/> <br/>
 ## Demo
 You can watch a quick demo of the extension in action on YouTube
 
