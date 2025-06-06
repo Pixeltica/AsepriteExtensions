@@ -7,7 +7,7 @@ Aseprite extensions are usually small lua script based additions to the base pro
 
 | Extension | Description | Docs |
 | ----- | ----- | ----- |
-| Tile Index Overlay | Creates a new layer with the tile index number in the upper left corner | [Readme](https://github.com/Pixeltica/AsepriteExtensions/tree/main/TileIndexOverlay) |
+| Tile Index Overlay | Creates a new layer with the tile index number in the upper left corner | [Check out the How To guide](https://github.com/Pixeltica/AsepriteExtensions/tree/main/TileIndexOverlay) |
 
 
 <br/><br/>
@@ -23,5 +23,4 @@ In both cases the extension will be installed in your [configuration directory](
 For general Aseprite extension information please make sure to read the official [Aseprite Docs](https://www.aseprite.org/docs/extensions/). The [Scripts & Extensions](https://community.aseprite.org/c/scripts/13) community forum is also a great place to learn more.<br/><br/>
 For any issues or bugs related to my extensions please make sure to [create an Issue](https://github.com/Pixeltica/AsepriteExtensions/issues) with as much detail as possible.
 <br/><br/>
-
 
