@@ -47,6 +47,10 @@ function createIndexOverlay()
         return
     end
 
+	-- Fixed: jumping to last sprite when more than one sprite is open
+	-- Save original sprite to return after temp sprite is discarded 
+	local originalSprite = spr
+
     -- Load digit definition maps
     local digit_definitions = {
         [0] = {Point(0, 0), Point(0, 1), Point(0, 2), Point(0, 3), Point(0, 4), Point(1, 0), Point(1, 4), Point(2, 0),
@@ -100,6 +104,7 @@ function createIndexOverlay()
         selected = true
     }
 
+	-- Default contrast colour to black at 150 alpha - semitransparent
     dlg:color{
         id = "tileContrastColor", 
         label = "Contrast Color:",
@@ -190,7 +195,7 @@ function createIndexOverlay()
 		{5, 7} -- 4th
     }
 
-    -- Draw out the tile indexes on the temporary sprite
+    -- Draw the tile index numbers on the temporary sprite
     local tileNumber = 0
     for y = 0, spr.height - 1, tileHeight do
         for x = 0, spr.width - 1, tileWidth do
@@ -230,6 +235,10 @@ function createIndexOverlay()
 
     -- Discard the temporary sprite
     tempSpr:close()
+
+	-- Set the active sprite back to the original one
+	-- Prevents being dropped on a different sprite after temp one is discarded
+    app.activeSprite = originalSprite
 
     app.refresh()
     app.alert("Tile Index Overlay layer(s) created successfully.")
