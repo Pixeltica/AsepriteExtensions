@@ -32,3 +32,5 @@ When you activate the extension you will see a popup with below options:
 * Contrast Color : color picker (default : semi-transparent black | this is the color of the background contrast rectangle)
 
 Click OK to generate the layer(s)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xwuA9mSwZkE?si=AXIWAN68lSVaY_2i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
