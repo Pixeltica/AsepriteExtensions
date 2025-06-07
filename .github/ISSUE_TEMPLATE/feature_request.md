@@ -1,20 +1,17 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
+name: "[REQUEST]"
+about: Request a new feature or functionality
+title: "[REQUEST]"
+labels: request
 assignees: ''
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Describe the feature / functionality you'd like to see:**
+Describe what you want added and how do you think it would or should work.
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Why do you want this added / how would you use it:**
+Why do you want this feature of functionality added? How will it help or how will you use it?
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
-
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Any additional details:**
+Add any other context such links, similar examples, or screenshots, to help me understand your request as much as possible.
